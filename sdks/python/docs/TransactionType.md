@@ -1,0 +1,14 @@
+# TransactionType
+
+
+## Enum
+
+* `PAYMENT` (value: `'payment'`)
+
+* `PAYOUT` (value: `'payout'`)
+
+* `THREE_DS_AUTHENTICATION` (value: `'three_ds_authentication'`)
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

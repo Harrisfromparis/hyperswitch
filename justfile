@@ -148,8 +148,15 @@ euclid-wasm features='dummy_connector':
         {{ source_directory() }}/crates/euclid_wasm \
         --features '{{ features }}'
 
+# Generate client SDKs from OpenAPI specifications
+generate-sdks:
+    {{ source_directory() }}/sdks/generate-sdks.sh
+
 # Run pre-commit checks
 precommit: fmt clippy
+
+# Run pre-commit checks including SDK generation
+precommit-full: fmt clippy generate-sdks
 
 # Use the env variables if present, or fallback to default values
 
