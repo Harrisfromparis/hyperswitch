@@ -93,6 +93,24 @@ Each module is independent and purpose-built to optimize different aspects of pa
 
 ## Quickstart 
 
+<h3> 🚀 Add to Your App (Recommended) </h3>
+
+Want to integrate Hyperswitch into your existing application? Use our SDKs and examples:
+
+```bash
+# Get started with JavaScript/TypeScript
+cd sdks/examples/javascript-express
+npm install
+HYPERSWITCH_API_KEY=your-key npm start
+
+# Or Python
+cd sdks/examples/python-flask  
+pip install -r requirements.txt
+HYPERSWITCH_API_KEY=your-key python app.py
+```
+
+📖 **[Complete Integration Guide](./INTEGRATION_GUIDE.md)** - Step-by-step guide to add Hyperswitch to your app
+
 <h3> Local Setup via Docker </h3>
 
 ```bash
